@@ -1,4 +1,3 @@
 selenium
 streamlit
-inspect
 PIL
