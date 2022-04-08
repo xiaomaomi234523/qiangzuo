@@ -1,0 +1,5 @@
+selenium
+streamlit
+os
+inspect
+PIL
