@@ -111,6 +111,7 @@ def qiangzuo2(seat,dr):
 flag = 1
 while flag: # 提前20s到达选座方式页面等候开放
     time_now = time.strftime("%H:%M:%S",time.localtime())
+    print(time_now)
     if time_now == tq:
         dr=qiangzuo1(library=library,room=room)
         flag = 0
