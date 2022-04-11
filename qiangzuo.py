@@ -28,8 +28,8 @@ dir_name = os.path.dirname(current_path)
 file_abs_path = os.path.abspath(dir_name)
 
 st.title("图书馆抢座")
-image = Image.open(file_abs_path+r'\pic.png')
-st.image(image)
+#image = Image.open(file_abs_path+r'\pic.png')
+#st.image(image)
 
 # 预先启动时间
 tq = "11:33:40"
