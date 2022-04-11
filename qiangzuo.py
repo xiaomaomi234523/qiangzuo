@@ -70,10 +70,10 @@ def qiangzuo1(library,room):
     sleep(0.4)
     #账号
     location = dr.find_element(By.XPATH,"//*[@id='un']")
-    location.send_keys('201964080')
+    location.send_keys('')
     #密码
     location = dr.find_element(By.XPATH,'//*[@id="pd"]')
-    location.send_keys('lbdzjszqx7018589')
+    location.send_keys('')
     #登录
     location = dr.find_element(By.XPATH,'/html/body/form[1]/div[2]/div/div[2]/div[2]/div[1]/span/input')
     location.click()
